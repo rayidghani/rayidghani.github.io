@@ -3,10 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Your Name | Personal Website</title>
+    <title>Your Name | Home</title>
     <meta
       name="description"
-      content="A personal website inspired by the structure and tone of rayidghani.com, tailored for showcasing biography, projects, publications, and contact information."
+      content="A multi-page personal website inspired by rayidghani.com, with dedicated pages for projects and tools, research, publications, and teaching."
     />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -19,184 +19,140 @@
   <body>
     <header class="site-header">
       <div class="container nav-wrap">
-        <a class="brand" href="#top">Your Name</a>
+        <a class="brand" href="index.html">Your Name</a>
         <nav class="nav" aria-label="Primary navigation">
-          <a href="#about">About</a>
-          <a href="#work">Work</a>
-          <a href="#writing">Writing</a>
-          <a href="#speaking">Speaking</a>
-          <a href="#contact">Contact</a>
+          <a href="index.html" aria-current="page">Home</a>
+          <a href="projects-tools.html">Projects &amp; Tools</a>
+          <a href="research.html">Research</a>
+          <a href="publications.html">Publications</a>
+          <a href="teaching.html">Teaching</a>
         </nav>
       </div>
     </header>
 
-    <main id="top">
-      <section class="hero">
+    <main>
+      <section class="hero page-hero">
         <div class="container hero-grid">
           <div>
-            <p class="eyebrow">Researcher · Builder · Speaker</p>
-            <h1>Personal website modeled after the clarity of rayidghani.com.</h1>
+            <p class="eyebrow">Researcher · Builder · Teacher</p>
+            <h1>A personal site with dedicated pages for your work.</h1>
             <p class="lead">
-              I’m <strong>Your Name</strong>, a professional working at the intersection of
-              technology, policy, research, and real-world impact. This site gives visitors a
-              quick way to understand who I am, what I work on, what I’ve published, and how to
-              get in touch.
+              I’m <strong>Your Name</strong>, and this website is structured to feel more like a
+              professional academic homepage: concise on the front page, with deeper linked pages
+              for projects and tools, research, publications, and teaching.
             </p>
             <div class="hero-actions">
-              <a class="button primary" href="#work">View selected work</a>
-              <a class="button secondary" href="#contact">Get in touch</a>
+              <a class="button primary" href="projects-tools.html">Explore projects &amp; tools</a>
+              <a class="button secondary" href="research.html">Read research</a>
             </div>
           </div>
           <aside class="profile-card" aria-label="Profile summary">
             <div class="avatar" aria-hidden="true">YN</div>
             <h2>Your Name</h2>
-            <p>Title, organization, and a concise one-line value proposition.</p>
+            <p>Title, affiliation, and a short description of the impact you create.</p>
             <ul class="meta-list">
               <li><span>Based in</span><strong>City, Country</strong></li>
               <li><span>Email</span><a href="mailto:you@example.com">you@example.com</a></li>
-              <li><span>Links</span><a href="#contact">GitHub · LinkedIn · CV</a></li>
+              <li><span>Primary focus</span><strong>Data, policy, research, and education</strong></li>
             </ul>
           </aside>
         </div>
       </section>
 
-      <section id="about" class="section">
+      <section class="section">
         <div class="container section-grid">
           <div>
             <p class="section-label">About</p>
-            <h2>A clean academic/professional homepage with room for depth.</h2>
+            <h2>Use the homepage as the entry point, then go deeper from there.</h2>
           </div>
           <div class="content-stack">
             <p>
-              This template follows the spirit of rayidghani.com: a strong introductory bio,
-              straightforward navigation, and a focus on substance over decoration. It is designed
-              for professors, researchers, consultants, technologists, policy professionals, and
-              interdisciplinary builders who want a polished web presence.
+              This homepage is intentionally concise. It gives visitors a quick sense of who you
+              are, what you work on, and where they should click next.
             </p>
             <p>
-              Replace this text with your own biography. A good version usually covers your current
-              role, the problems you care about, the communities you serve, and the kinds of
-              collaborations or opportunities you are open to.
+              Replace this text with your actual biography, current role, affiliations, and a short
+              statement about the communities or problems you care about most.
             </p>
             <div class="tag-row" aria-label="Areas of interest">
-              <span>AI & Data</span>
-              <span>Public Policy</span>
-              <span>Human-Centered Design</span>
-              <span>Education</span>
+              <span>AI &amp; Data</span>
+              <span>Public Interest Technology</span>
+              <span>Research Translation</span>
+              <span>Teaching</span>
               <span>Social Impact</span>
             </div>
           </div>
         </div>
       </section>
 
-      <section id="work" class="section alt">
+      <section class="section alt">
         <div class="container">
           <div class="section-heading">
             <div>
-              <p class="section-label">Selected work</p>
-              <h2>Highlight a few meaningful projects instead of everything.</h2>
+              <p class="section-label">Explore the site</p>
+              <h2>Each major area now has its own page.</h2>
             </div>
             <p>
-              Use this section to showcase projects, labs, collaborations, startups, fellowships,
-              or client engagements.
+              This gives you more room for detail while keeping the main page clean and easy to
+              scan.
             </p>
           </div>
 
-          <div class="card-grid">
-            <article class="card">
-              <p class="card-kicker">Project / Lab</p>
-              <h3>Flagship initiative or research lab</h3>
+          <div class="card-grid feature-grid">
+            <article class="card feature-card">
+              <p class="card-kicker">Projects &amp; Tools</p>
+              <h3>Highlight applied work, products, prototypes, and resources.</h3>
               <p>
-                Describe the problem, your role, your collaborators, and the impact in two or
-                three concise sentences.
+                Showcase the initiatives you have built, the teams you have led, and the tools you
+                want people to use.
               </p>
-              <a href="#contact">Learn more</a>
+              <a href="projects-tools.html">Go to Projects &amp; Tools</a>
             </article>
-            <article class="card">
-              <p class="card-kicker">Case study</p>
-              <h3>Applied work with public or social impact</h3>
+            <article class="card feature-card">
+              <p class="card-kicker">Research</p>
+              <h3>Describe your themes, methods, and active research agenda.</h3>
               <p>
-                Summarize a project that demonstrates practical outcomes, interdisciplinary work,
-                or measurable results.
+                Explain the questions that guide your work, the settings you study, and the broader
+                significance.
               </p>
-              <a href="#contact">View case study</a>
+              <a href="research.html">Go to Research</a>
             </article>
-            <article class="card">
-              <p class="card-kicker">Teaching / Leadership</p>
-              <h3>Program, course, or community-building effort</h3>
+            <article class="card feature-card">
+              <p class="card-kicker">Publications</p>
+              <h3>Provide a browsable home for papers, reports, essays, and talks.</h3>
               <p>
-                Show visitors how you teach, mentor, organize, or help others build skills and
-                capacity.
+                Make it easier for visitors to see the depth of your writing and scholarly output.
               </p>
-              <a href="#contact">See details</a>
+              <a href="publications.html">Go to Publications</a>
+            </article>
+            <article class="card feature-card">
+              <p class="card-kicker">Teaching</p>
+              <h3>Share courses, advising, workshops, and educational philosophy.</h3>
+              <p>
+                Use a dedicated page for teaching materials, mentoring, and opportunities for
+                learners.
+              </p>
+              <a href="teaching.html">Go to Teaching</a>
             </article>
           </div>
         </div>
       </section>
 
-      <section id="writing" class="section">
-        <div class="container split-layout">
-          <div>
-            <p class="section-label">Writing & publications</p>
-            <h2>Make it easy to browse your thinking.</h2>
-            <p>
-              Add links to papers, essays, articles, reports, or blog posts that represent your
-              body of work.
-            </p>
-          </div>
-          <div class="list-panel">
-            <article>
-              <h3>Publication or article title</h3>
-              <p>Co-authors or publication venue · Year</p>
-            </article>
-            <article>
-              <h3>Talk, essay, or public writing sample</h3>
-              <p>Short context about why it matters and who it was for.</p>
-            </article>
-            <article>
-              <h3>Downloadable CV, portfolio, or media kit</h3>
-              <p>Link to a PDF or external page once you have final assets.</p>
-            </article>
-          </div>
-        </div>
-      </section>
-
-      <section id="speaking" class="section alt">
-        <div class="container split-layout">
-          <div>
-            <p class="section-label">Speaking</p>
-            <h2>Share the topics you speak, teach, or advise on.</h2>
-          </div>
-          <div class="content-stack">
-            <p>
-              This section works well for workshops, keynote topics, guest lectures, advisory work,
-              or executive education.
-            </p>
-            <ul class="bullet-list">
-              <li>Designing useful and trustworthy AI systems</li>
-              <li>Translating research into operational practice</li>
-              <li>Building data-informed decision processes</li>
-              <li>Ethics, fairness, and accountability</li>
-            </ul>
-          </div>
-        </div>
-      </section>
-
-      <section id="contact" class="section contact-section">
+      <section class="section contact-section">
         <div class="container contact-card">
           <div>
             <p class="section-label">Contact</p>
-            <h2>Invite the right kinds of conversations.</h2>
+            <h2>Invite the right opportunities.</h2>
             <p>
-              Let people know whether they should reach out for research collaborations, speaking
-              engagements, consulting, student opportunities, press, or something else.
+              Share how people should reach you for collaborations, consulting, speaking,
+              mentorship, or student opportunities.
             </p>
           </div>
           <div class="contact-links">
             <a href="mailto:you@example.com">you@example.com</a>
             <a href="https://github.com/" target="_blank" rel="noreferrer">GitHub</a>
             <a href="https://www.linkedin.com/" target="_blank" rel="noreferrer">LinkedIn</a>
-            <a href="#top">Back to top ↑</a>
+            <a href="publications.html">See publications →</a>
           </div>
         </div>
       </section>
