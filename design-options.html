@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Your Name | Design Options</title>
+    <meta
+      name="description"
+      content="Design and layout options for the multi-page personal website starter."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav-wrap">
+        <a class="brand" href="index.html">Your Name</a>
+        <nav class="nav" aria-label="Primary navigation">
+          <a href="index.html">Home</a>
+          <a href="projects-tools.html">Projects &amp; Tools</a>
+          <a href="research.html">Research</a>
+          <a href="publications.html">Publications</a>
+          <a href="teaching.html">Teaching</a>
+          <a href="design-options.html" aria-current="page">Design Options</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero compact-hero">
+        <div class="container page-intro">
+          <div>
+            <p class="eyebrow">Design Options</p>
+            <h1>Choose the visual direction that best fits your personal brand.</h1>
+          </div>
+          <p class="lead intro-copy">
+            Pick one of the three options below by changing the stylesheet link in each HTML file.
+            Keep content the same, and switch style in seconds.
+          </p>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container card-grid feature-grid">
+          <article class="card feature-card">
+            <p class="card-kicker">Option 1 · Clean Blue (Current)</p>
+            <h3>Balanced academic/professional look with soft gradients and glassy cards.</h3>
+            <p><code>&lt;link rel="stylesheet" href="styles.css" /&gt;</code></p>
+          </article>
+
+          <article class="card feature-card">
+            <p class="card-kicker">Option 2 · Minimal Serif</p>
+            <h3>Editorial and understated look with lighter shadows and serif body text.</h3>
+            <p><code>&lt;link rel="stylesheet" href="styles-option-minimal.css" /&gt;</code></p>
+          </article>
+
+          <article class="card feature-card">
+            <p class="card-kicker">Option 3 · Bold Dark</p>
+            <h3>High-contrast modern style with dark backgrounds and brighter accents.</h3>
+            <p><code>&lt;link rel="stylesheet" href="styles-option-bold.css" /&gt;</code></p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section alt">
+        <div class="container section-grid">
+          <div>
+            <p class="section-label">How to apply</p>
+            <h2>One quick edit per page.</h2>
+          </div>
+          <div class="content-stack">
+            <p>
+              Open each HTML file and change the stylesheet link near the top from
+              <code>styles.css</code> to your preferred option.
+            </p>
+            <p>
+              You can also mix and match: use a minimal look for publications and a bold look for
+              projects if you want different moods by page.
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
